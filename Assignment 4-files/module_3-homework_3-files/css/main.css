@@ -10,8 +10,7 @@
   text-decoration: none;
   padding: 0 3%;
 }
-.btn,
-.btn-top {
+.btn {
   background-color: #f8df1f;
   outline: none;
   text-transform: uppercase;
@@ -38,9 +37,8 @@ ul li span {
   color: #ee252f;
   text-transform: uppercase;
 }
-.logo {
-  padding: 20px 0;
-  text-align: center;
+.logo-top {
+  padding: 175px 0 15px 0;
 }
 h2 {
   text-transform: uppercase;
@@ -61,6 +59,9 @@ h2 .lower {
   width: 175px;
   height: 50px;
 }
+.burger {
+  padding-top: 20px;
+}
 .div3 {
   padding: 50px 0;
 }
@@ -74,6 +75,6 @@ h2 .lower {
 footer {
   width: 100%;
   background-color: #080801;
-  padding: 2% 0;
+  padding: 25px 0;
   border-top: 15px solid #f8df1f;
 }

@@ -10,8 +10,7 @@
   text-decoration: none;
   padding: 0 3%;
 }
-.btn,
-.btn-top {
+.btn {
   background-color: #f8df1f;
   outline: none;
   text-transform: uppercase;
