@@ -1,0 +1,65 @@
+@import 'variables';
+@import 'mixins';
+
+* {
+	margin: 0;
+	padding: 0;
+    border: 0;
+    font-family: @primary-font;
+}
+
+header {
+    nav {
+        background-color: @yellow;
+        padding: 2% 0 2%;
+    }
+}
+
+ul {
+    li {
+        font-size: 18px;
+        .list();
+            span {
+                color: @red;
+                text-transform: uppercase;
+        }
+    }
+}
+
+.logo {
+    padding: 20px 0;
+    text-align: center;
+}
+
+h2 {
+    text-transform: uppercase;
+        span {
+            color: @red;
+        }
+            .lower{
+                text-transform: lowercase;
+            }
+}
+
+.div2{
+    padding: 50px 0; 
+    button {
+        .btn();
+    } 
+}
+
+.div3 {
+    padding: 50px 0;
+    button {
+        .btn();
+    }
+}
+
+footer {
+    width: 100%;
+    background-color: @black;
+    padding: 2% 0;
+    border-top: 15px solid @yellow;
+}
+
+
