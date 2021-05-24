@@ -40,7 +40,7 @@ h2 {
             }
 }
 
-.div2{
+.div2 {
     padding: 50px 0; 
     button {
         .btn();
@@ -51,6 +51,11 @@ h2 {
     padding-top: 20px;
 }
 
+.bg2 {
+    background-color: @light-gray;
+    width: 100%;
+}
+
 .div3 {
     padding: 50px 0;
     background-color: @light-gray;
@@ -58,12 +63,26 @@ h2 {
         .btn();
     }
 }
+.col-lg-8 {
+    padding: 40px 0 0 90px;
+}
 
 footer {
-    width: 100%;
+    max-width: 100%;
     background-color: @black;
     padding: 25px 0;
     border-top: 15px solid @yellow;
 }
 
+@media (max-width: 650px) {
+    .logo-top  {
+      width: 80%;
+    }
+  }
+
+  @media (max-width: 650px) {
+    .list {
+      padding: 0 2%;
+    }
+  }
 
